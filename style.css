@@ -1,14 +1,10 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.1);
-    -moz-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.1);
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.1);
 }
 
 .timer {
-    -webkit-transition: 0s;
+    transition: 0s;
 }
 
 body {
@@ -60,15 +56,15 @@ p {
 
 .camera, .close {
     border-radius: 5px;
-    height: 10px;
-    width: 10px;
+    height: 2.9586%;
+    width: 5.05050%;
 }
 
 .camera {
     position: absolute;
     left: 50%;
-    margin-left: -5px;
-    margin-top: 11px;
+    margin-left: -2.5252%;
+    margin-top: 5.5555%;
 }
 
 .speaker {
@@ -191,9 +187,6 @@ p {
 .device .phone {
     width: 100%;
     max-width: 210px;
-}
-
-.device .phone .wrapper {
     padding-bottom: 166.6666%;
 }
 
